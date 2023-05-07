@@ -18,11 +18,20 @@
     --fonte-padrao: 'Sriracha', Arial, Verdana, Helvetica, sans-serif;
     --fonte-header: 'Passion One', Arial, Verdana, Helvetica, sans-serif;
 }
+body{
+    background-color: black;
+    color: black;
+}
 
 
+header{
+    background-color: black;
+    background-image: url('/desafios/desafio012/imagens/background001.jpg');
+}
 header p{
     font-family: var(--fonte-header);
     text-align: center;
+    background-color: black;
 }
 main{
     min-width: 320px;
